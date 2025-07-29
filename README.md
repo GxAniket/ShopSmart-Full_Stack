@@ -17,8 +17,7 @@
 ## ✨ Features
 
 - 🛍️ Browse products by category  
-- 🛒 Add/remove items to cart  
-- 🔐 JWT authentication & bcrypt password hashing  
+- 🛒 Add/remove items to cart   
 - ✅ Login/Register flow with validation  
 - 📦 Place mock orders (checkout simulation)  
 - 📃 Responsive UI using Tailwind CSS  
