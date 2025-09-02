@@ -79,9 +79,14 @@ Use Tailwind CSS for responsive UIs
 - 💳 Integrate Razorpay/Stripe for real payments.
 
 ---
+
 ## 🧾 License
-This project is intended for educational & demo purposes only.
-Use freely with credit. No commercial use.
+
+<p align="center">
+  📜 <strong>License & Copyright</strong><br><br>
+  🚫 All repositories © Aniket Sundriyal (GxAniket) — Unauthorized copying, modification, or distribution is strictly prohibited.<br>
+  📩 For usage or collaboration requests, please <a href="mailto:sundriyalaniket@gmail.com">contact me</a>.
+</p>
 
 ---
 
