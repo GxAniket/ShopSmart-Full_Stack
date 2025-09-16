@@ -1,82 +1,89 @@
-<h1 align="center">🛍️ ShopSmart — Full Stack Online Shopping App</h1>
+<h1 align="center">🏥 HumaNova Health — Full Stack AI-Powered Healthcare Platform</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=435&lines=Fullstack+E-Commerce+App;MERN+Stack+Project;Built+by+Aniket+Sundriyal" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=Fullstack+Healthcare+App;Java+Spring+Boot+%2B+React;AI+Powered+Symptom+Checker;Built+by+Aniket+Sundriyal" alt="Typing animation" />
 </p>
 
 ---
 
 ## 📦 Overview
 
-**ShopSmart** is a full-featured online shopping platform built using the **MERN Stack** (MongoDB, Express.js, React.js, Node.js). This project demonstrates modern full-stack development with features like user authentication, product browsing, cart management, and a responsive UI.
+**HumaNova Health — Web** is a full-stack healthcare platform that integrates **AI-powered features** with modern web technologies.  
+Patients can book appointments, upload medical reports, and interact with an AI-based symptom checker, while doctors and admins can manage healthcare data efficiently.  
 
-> ⚠️ **Note**: This project is designed for **offline/local use only**. No live deployment or payment gateway integration.
+This project is built using **React (Frontend)**, **Java Spring Boot (Backend)**, and **PostgreSQL (Database)**.
 
 ---
 
 ## ✨ Features
 
-- 🛍️ Browse products by category  
-- 🛒 Add/remove items to cart   
-- ✅ Login/Register flow with validation  
-- 📦 Place mock orders (checkout simulation)  
-- 📃 Responsive UI using Tailwind CSS  
-- 🌐 RESTful APIs with Express & MongoDB
+- 👤 **User Roles**: Patients, Doctors, Admins  
+- 📅 **Appointment Booking System**  
+- 📂 **Medical Records Upload & Management**  
+- 🤖 **AI Symptom Checker** (basic ML model integration)  
+- 🛠️ **Admin Dashboard** for doctor & patient management  
+- 🔐 **JWT Authentication & Secure Login**  
+- 📊 **Health Data Visualization** (charts & insights)  
+- 📱 **Responsive UI** with React + TailwindCSS  
 
 ---
 
 ## ⚙️ Tech Stack
 
-| Layer       | Tools Used                                  |
+| Layer       | Tools Used                                   |
 |-------------|----------------------------------------------|
-| Frontend    | React.js, JavaScript, Tailwind CSS, HTML5    |
-| Backend     | Node.js, Express.js                          |
-| Database    | MongoDB with Mongoose                        |
-| Auth & APIs | JWT, bcrypt.js, Axios                        |
-| Tools       | Postman, VS Code, Git                        |
+| Frontend    | React.js, JavaScript, Tailwind CSS, Axios    |
+| Backend     | Java, Spring Boot, Spring Security, JWT      |
+| Database    | PostgreSQL / MySQL                           |
+| AI/ML       | Python (Flask API) for symptom analysis      |
+| Tools       | Postman, VS Code, Git, Docker                |
 
 ---
 
 ## 🗂️ Project Structure
 <pre>
-ShopSmart/
-├── client/ # React frontend
-│ ├── components/ # UI Components
-│ ├── pages/ # Views/Routes
-│ └── ...
-├── server/ # Express backend
-│ ├── models/ # Mongoose schemas
-│ ├── routes/ # API routes
-│ ├── controllers/ # Logic handlers
-│ └── ...
+HumaNova-Health/
+├── client/                # React frontend
+│   ├── components/        # Reusable UI Components
+│   ├── pages/             # Views/Routes
+│   └── ...
+├── server/                # Spring Boot backend
+│   ├── controllers/       # REST API controllers
+│   ├── services/          # Business logic
+│   ├── models/            # Entities
+│   └── repositories/      # Database access
+├── ai-service/ (optional) # Python ML microservice
 ├── README.md
 └── package.json
 </pre>
 
 ---
 
-##📸 Screenshots
+## 📸 Screenshots (to be added)
 
-![Home Page](link-to-home-image)
-![Cart Page](link-to-cart-image)
-![Login Page](link-to-login-image)
+![Home Page](link-to-home-image)  
+![Appointment Page](link-to-appointment-image)  
+![AI Chatbot](link-to-ai-chatbot-image)  
 
 ---
+
 ## 🧠 Learnings & Goals
 
-This project helped me:
-Strengthen full-stack fundamentals (MERN)
-Practice secure login and token-based authentication
-Build scalable frontend components using React
-Use Tailwind CSS for responsive UIs
+This project helped me:  
+- Strengthen **full-stack fundamentals** with Java Spring Boot & React  
+- Implement **JWT authentication & secure APIs**  
+- Integrate **AI/ML with web apps**  
+- Design scalable, modular project structure  
+- Practice deployment workflows (Vercel, Render, Railway)  
 
 ---
-## 🛠️ Upcoming Enhancements.
 
-- ✅ Admin dashboard for product upload.
-- 🛒 Dynamic order history tracking.
-- 🌍 Deployment with Vercel/Render.
-- 💳 Integrate Razorpay/Stripe for real payments.
+## 🛠️ Upcoming Enhancements
+
+- ✅ Telemedicine module (video consultation)  
+- ✅ Pharmacy integration for medicine ordering  
+- ✅ Wearable device data integration (heart rate, BP)  
+- 🌍 Full deployment with CI/CD pipeline  
 
 ---
 
@@ -91,5 +98,10 @@ Use Tailwind CSS for responsive UIs
 ---
 
 ## 🙌 Author
-Made with ❤️ by Aniket Sundriyal
-<p align="center"> <a href="https://github.com/GxAniket"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a> <a href="mailto:sundriyalaniket@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a> <a href="https://www.linkedin.com/in/aniket-sundriyal"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> </p>
+
+Made with ❤️ by **Aniket Sundriyal**  
+<p align="center"> 
+  <a href="https://github.com/GxAniket"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" /></a> 
+  <a href="mailto:sundriyalaniket@gmail.com"><img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" /></a> 
+  <a href="https://www.linkedin.com/in/aniket-sundriyal"><img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" /></a> 
+</p>
