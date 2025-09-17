@@ -1,29 +1,34 @@
-<h1 align="center">🏥 HumaNova Health — Full Stack AI-Powered Healthcare Platform</h1>
+<h1 align="center">🏥 Aniket HealthAI — Full Stack AI-Powered Healthcare Platform</h1>
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=Fullstack+Healthcare+App;Java+Spring+Boot+%2B+React;AI+Powered+Symptom+Checker;Built+by+Aniket+Sundriyal" alt="Typing animation" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=500&lines=Fullstack+Healthcare+App;React+%2B+SpringBoot;AI+3D+Doctor+Chatbot;Built+by+Aniket+Sundriyal" alt="Typing animation" />
 </p>
 
 ---
 
 ## 📦 Overview
 
-**HumaNova Health — Web** is a full-stack healthcare platform that integrates **AI-powered features** with modern web technologies.  
-Patients can book appointments, upload medical reports, and interact with an AI-based symptom checker, while doctors and admins can manage healthcare data efficiently.  
+**Aniket HealthAI — Web** is a full-stack healthcare platform integrating **AI-powered features** with **medicine e-commerce** and **telemedicine services**.  
+Users can:  
 
-This project is built using **React (Frontend)**, **Java Spring Boot (Backend)**, and **PostgreSQL (Database)**.
+- Buy medicines and health products online  
+- Interact with a **3D AI doctor chatbot** for preliminary consultations  
+- Book video consultations with real doctors (free for low-income users, paid for others)  
+
+This project is built using **React (Frontend)**, **Java Spring Boot (Backend)**, and **PostgreSQL (Database)**, with AI services integrated via Python ML microservices.
 
 ---
 
 ## ✨ Features
 
 - 👤 **User Roles**: Patients, Doctors, Admins  
-- 📅 **Appointment Booking System**  
+- 🛒 **Medicine & Health Product Store** – Browse, add to cart, checkout  
+- 🤖 **AI 3D Doctor Chatbot** – Symptom checking & preliminary advice  
+- 📅 **Appointment & Telemedicine System** – Free & paid video consultations  
 - 📂 **Medical Records Upload & Management**  
-- 🤖 **AI Symptom Checker** (basic ML model integration)  
-- 🛠️ **Admin Dashboard** for doctor & patient management  
+- 🛠️ **Admin Dashboard** – Manage users, products, and consultations  
 - 🔐 **JWT Authentication & Secure Login**  
-- 📊 **Health Data Visualization** (charts & insights)  
+- 📊 **Health Data Insights & Visualization**  
 - 📱 **Responsive UI** with React + TailwindCSS  
 
 ---
@@ -35,14 +40,16 @@ This project is built using **React (Frontend)**, **Java Spring Boot (Backend)**
 | Frontend    | React.js, JavaScript, Tailwind CSS, Axios    |
 | Backend     | Java, Spring Boot, Spring Security, JWT      |
 | Database    | PostgreSQL / MySQL                           |
-| AI/ML       | Python (Flask API) for symptom analysis      |
-| Tools       | Postman, VS Code, Git, Docker                |
+| AI/ML       | Python (Flask API) for 3D doctor & symptom analysis |
+| Video Calls | WebRTC / Jitsi API                           |
+| Payments    | Razorpay / Stripe                             |
+| Tools       | VS Code, Git, Docker, Postman                |
 
 ---
 
 ## 🗂️ Project Structure
 <pre>
-HumaNova-Health/
+Aniket-HealthAI/
 ├── client/                # React frontend
 │   ├── components/        # Reusable UI Components
 │   ├── pages/             # Views/Routes
@@ -52,7 +59,8 @@ HumaNova-Health/
 │   ├── services/          # Business logic
 │   ├── models/            # Entities
 │   └── repositories/      # Database access
-├── ai-service/ (optional) # Python ML microservice
+├── ai-service/            # Python ML microservice for AI Doctor
+├── payment-service/       # Payment gateway integration
 ├── README.md
 └── package.json
 </pre>
@@ -62,28 +70,30 @@ HumaNova-Health/
 ## 📸 Screenshots (to be added)
 
 ![Home Page](link-to-home-image)  
-![Appointment Page](link-to-appointment-image)  
-![AI Chatbot](link-to-ai-chatbot-image)  
+![Medicine Store](link-to-store-image)  
+![AI 3D Doctor](link-to-ai-chatbot-image)  
+![Video Consultation](link-to-video-consult-image)  
 
 ---
 
 ## 🧠 Learnings & Goals
 
 This project helped me:  
-- Strengthen **full-stack fundamentals** with Java Spring Boot & React  
-- Implement **JWT authentication & secure APIs**  
-- Integrate **AI/ML with web apps**  
-- Design scalable, modular project structure  
-- Practice deployment workflows (Vercel, Render, Railway)  
+- Strengthen **full-stack development** with React & Java Spring Boot  
+- Implement **secure JWT authentication & APIs**  
+- Integrate **AI/ML into a web platform** (3D AI doctor chatbot)  
+- Build **medicine e-commerce features**  
+- Connect real doctors via **video consultation**  
+- Practice **deployment workflows** (Vercel, Render, Railway)  
 
 ---
 
 ## 🛠️ Upcoming Enhancements
 
-- ✅ Telemedicine module (video consultation)  
-- ✅ Pharmacy integration for medicine ordering  
-- ✅ Wearable device data integration (heart rate, BP)  
-- 🌍 Full deployment with CI/CD pipeline  
+- ✅ Improved AI chatbot with deeper symptom analysis  
+- ✅ Pharmacy integration with stock & delivery tracking  
+- ✅ Advanced telemedicine features & scheduling  
+- 🌍 Full deployment with CI/CD pipeline and analytics  
 
 ---
 
@@ -104,8 +114,6 @@ Made with ❤️ by **Aniket Sundriyal**
 ---
 
 ## 🌐 Connect with Me
-
-Feel free to reach out and connect!
 
 <p align="center">
   <a href="https://github.com/GxAniket" target="_blank"><img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"></a>
